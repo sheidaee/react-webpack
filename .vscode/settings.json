@@ -1,0 +1,10 @@
+{
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#000",
+    "titleBar.inactiveForeground": "#000000CC",
+    "titleBar.activeBackground": "#26d443",
+    "titleBar.inactiveBackground": "#29963b"
+  },
+  "eslint.enable": true,
+  "px-to-rem.px-per-rem": 10
+}

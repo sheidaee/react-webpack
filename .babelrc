@@ -1,0 +1,25 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "modules": false,
+      "useBuiltIns": "usage",
+      "corejs": "3.6.4"
+    }
+  ], "@babel/preset-react"],
+  "plugins": ["react-hot-loader/babel", ["module-resolver", {
+    "root": ["./src"],
+    "alias": {        
+      "@components": "./src/components",
+      "@modules": "./src/modules",
+      "@utils": "./src/utils",
+      "@routes": "./src/routes"
+    }
+  }],
+  "@babel/plugin-proposal-class-properties"
+  ],
+  "env": {
+    "test": {
+      "plugins": ["@babel/plugin-transform-modules-commonjs"]
+    }
+  }
+}

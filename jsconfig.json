@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["./components/*"],
+      "@modules/*": ["./modules/*"],
+      "@utils/*": ["./utils/*"]
+    },
+    "target": "es2020"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "./.docz", ".vscode", "mock-api", "build", "public", "shared"]
+}

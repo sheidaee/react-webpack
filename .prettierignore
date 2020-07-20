@@ -1,0 +1,9 @@
+.docz
+.vscode
+build
+docs
+node_modules
+coverage
+public
+shared
+
