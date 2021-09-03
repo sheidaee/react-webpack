@@ -65,7 +65,7 @@
     "webpack-messages": "^2.0.4"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-query": "^2.4.19",
